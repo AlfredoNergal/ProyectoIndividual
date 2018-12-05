@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Aplicacion POO Version 2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="nav_inicio">Inicio</string>
+    <string name="nav_presupuesto" />
+    <string name="nav_Presupuesto">Presupuestos</string>
+    <string name="nav_estadisticas">Estadisticas</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NuevoIngreso">
+
+    <LinearLayout
+        android:layout_width="384dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:text="Ingreso"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="34dp"
+            tools:layout_editor_absoluteY="89dp" />
+
+        <EditText
+            android:id="@+id/txt_cantidadingreso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Ingrese la cantidad"
+            android:maxLength="9"
+            android:inputType="numberDecimal"
+            tools:layout_editor_absoluteX="103dp"
+            tools:layout_editor_absoluteY="76dp" />
+
+        <Button
+            android:id="@+id/btn_registraringreso"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:background="@color/colorPrimary"
+            android:backgroundTint="@color/colorPrimary"
+            android:gravity="center"
+            android:onClick="RegistrarIngreso"
+            android:text="Registar Ingreso"
+            android:textColor="@android:color/background_light"
+            tools:layout_editor_absoluteX="34dp"
+            tools:layout_editor_absoluteY="164dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

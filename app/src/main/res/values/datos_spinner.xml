@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tipo_gasto">
+        <item>Alimentacion</item>
+        <item>Combustible</item>
+        <item>Universidad</item>
+        <item>Energia</item>
+        <item>Agua</item>
+        <item>Renta o Alquiler</item>
+        <item>Internet</item>
+
+
+    </string-array>
+</resources>
