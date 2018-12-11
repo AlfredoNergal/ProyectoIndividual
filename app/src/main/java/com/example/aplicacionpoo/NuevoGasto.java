@@ -14,9 +14,10 @@ import android.widget.Toast;
 
 public class NuevoGasto extends AppCompatActivity {
 
-    Spinner spinner;
-    TextView textView;
-    EditText txtgasto;
+    static Spinner spinner;
+    static TextView textView;
+    static EditText txtgasto;
+
 
 
     @Override
@@ -40,6 +41,8 @@ public class NuevoGasto extends AppCompatActivity {
                 vartipogasto= spinner.getSelectedItem().toString();
                 textView.setText(vartipogasto);
 
+
+
             }
 
             @Override
@@ -60,8 +63,8 @@ public class NuevoGasto extends AppCompatActivity {
         if(!gasto.isEmpty()){
 
             ContentValues registro= new ContentValues();
-            registro.put("Gasto", gasto);
-            registro.put("Descripcion", descripcion);
+            registro.put("cantidad", gasto);
+            registro.put("descripcion", descripcion);
 
             liteDatabase.insert("datos", null, registro);
             liteDatabase.close();

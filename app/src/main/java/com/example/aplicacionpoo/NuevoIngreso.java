@@ -29,7 +29,7 @@ public class NuevoIngreso extends AppCompatActivity {
         if(!ingreso.isEmpty()){
 
             ContentValues registro= new ContentValues();
-            registro.put("Ingreso", ingreso);
+            registro.put("cantidad", ingreso);
 
             liteDatabase.insert("datos", null, registro);
             liteDatabase.close();
